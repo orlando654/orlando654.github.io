@@ -1,0 +1,66 @@
+*{ 
+    margin: 4px;
+    
+}
+
+.todo{
+    position: none;
+}
+ 
+#foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.izq{
+    float: left;
+    background-color: rgb(145, 145, 236);
+    height: 1080px;
+    width: 30%;
+    
+}
+
+
+.der{
+    float: left;
+}
+
+.der h1{
+  color: rgb(166, 166, 231);
+}
+
+
+.fechas{
+    float: left;
+    color: rgb(134, 134, 185);
+}
+
+
+
+
+.puestos{
+    float: left;
+}
+
+
+.titulos{
+    float: left;
+}
+
+.anos{
+    float: left;
+
+}
+
+
+.correo a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.correo p{
+    color: white;
+}

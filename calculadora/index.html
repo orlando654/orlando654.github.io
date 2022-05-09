@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora</title>
+</head>
+<body onload="init();"> 
+
+    <table class="calculadora">
+        <tr>
+            <td colspan="9">
+                <span id="resultado"></span>
+            </td>
+        </tr> 
+        <tr>
+            <td><button class="botones" id="siete">7</button></td>
+            <td><button class="botones" id="ocho">8</button></td>
+            <td><button class="botones" id="nueve">9</button></td>
+            <td><button class="botones" id="division">/</button></td>
+        </tr> 
+        <tr>
+            <td> <button class="botones" id="cuatro">4</button></td>
+            <td> <button class="botones" id="cinco">5</button></td>
+            <td> <button class="botones" id="seis">6</button></td>
+            <td> <button class="botones" id="multiplicacion">*</button></td>     
+        </tr>
+        <tr>
+            <td><button class="botones" id="uno">1</button></td>
+            <td><button class="botones" id="dos">2</button></td>
+            <td><button class="botones" id="tres">3</button></td>
+            <td><button class="botones" id="resta">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="botones" id="igual">=</button></td>
+            <td><button class="botones" id="reset">C</button></td>
+            <td><button class="botones" id="cero">0</button></td>
+            <td><button class="botones" id="suma">+</button></td>
+        </tr>
+    </table>
+    <script src="./js/funcionalidad.js"></script>
+</body>
+
+</html>
