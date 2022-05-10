@@ -196,6 +196,68 @@ main{
     margin-top: -100px;
     opacity: 0.6;
 }
+.columna-mobile-100{
+    width: 100%;
+  }
+.columna {
+    padding-right: 25px;
+    padding-left: 100px;
+  }
+  
+  .columna-25 {
+    width: 25%;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+  }
+  
+  footer .barra-footer {
+    background-color: grey;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  footer .logo-footer {
+    width: 100%;
+  }
+  
+  footer p {
+    margin-bottom: 30px;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer .redes {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .redes a {
+    margin: 0px 7.5px;
+  }
+  
+  footer ul {
+    padding-right: 0px;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+    margin-left: -40px;
+    text-align: center;
+  }
+  
+
 
 
 @media (max-width: 1024px){
